@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+		<title>THPT Le Viet Thuat</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<div class="hcenter login-background vcenter" id="login">
+			<div class="hcenter login-windows vcenter">
+			    <div class="close-login-windows">
+			        <img src="image/x.png" id="close-login-button">
+			    </div>
+			    <div>
+			        <h2 class="hcenter">Đăng nhập</h2>
+			        <div class="hcenter usertype">   
+			            <input type="radio" id="hoc-sinh" name="usertype" checked>
+			            <label for="hoc-sinh">Học sinh</label>
+			            <br>
+			            <input type="radio" id="giao-vien" name="usertype">
+	    		        <label for="giao-vien">Giáo viên</label>
+		    	    </div>
+			    	<div id="form">
+				    	<label for="username">Email hoặc tài khoản:</label>
+					    <input id="username">
+					    <br>
+    					<label for="password">Mật khẩu:</label>
+	    				<input id="password" type="Password">
+		    			<br>
+				    </div>
+				    <button id="submit">Đăng nhập</button>
+    			</div>
+	    	</div>
+	    </div>
+		<div id="Title-bar">
+			<a href="main.html" class="no-underline">
+				<div class="vcenter hcenter">
+					<img src="image/logo.png" class="title-logo">
+					<span class="header mid-child">THPT Lê Viết Thuật</span>
+					<img src="image/lg.png" class="title-img">
+				</div>
+			</a>
+		</div>
+		<div class="menu-bar hcenter">
+			<div class="vcenter">
+				<ul class="nav-bar">
+					<li class="nav-item vcenter" style="background-color: white;">
+						<a href="index.html" class="no-underline">Trang chủ</a>
+					</li>
+					<li class="nav-item vcenter">
+						<a href="deluyen.html" class="no-underline">Đề Luyện</a>	
+					</li>
+					<li class="nav-item vcenter">
+						<a href="kythi.html" class="no-underline">Kỳ Thi</a>
+					</li>
+					<li class="nav-item vcenter">
+						<a href="hoidap.html" class="no-underline">Hỏi & Đáp</a>
+					</li>
+					<li class="nav-item vcenter">
+						<a href="chatbox.html" class="no-underline">Chat Box</a>
+					</li>
+				</ul>
+				<div class="search-box vcenter">
+					<input style="height: 16px;">
+					<button style="height: 22px;width: 25px;" class="hcenter">
+						<img src="image/search.png" style="width: 15px;">
+					</button>
+				</div>
+				<div style="height: 40px;margin-left: 15px;">
+					<a href="#login" id="login-bt">Đăng nhập</a>
+					|
+					<a href="">Đăng kí</a>
+				</div>
+			</div>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>
