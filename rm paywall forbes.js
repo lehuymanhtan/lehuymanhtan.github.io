@@ -1,11 +1,14 @@
 // ==UserScript==
 // @name         fobes unblock?
-// @version      0.1
-// @description  try to take over the world!
+// @namespace    http://tampermonkey.net/
+// @version      0.2
+// @description  remove paywall on forbes.com
 // @author       You
 // @match        https://*.forbes.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=forbes.com
 // @grant        none
+// @downloadURL  https://lehuymanhtan.github.io/rm%20paywall%20forbes.js
+// @updateURL    https://lehuymanhtan.github.io/rm%20paywall%20forbes.js
 // ==/UserScript==
 
 (function() {
