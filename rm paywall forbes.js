@@ -3,7 +3,7 @@
 // @namespace    https://github.com/lehuymanhtan
 // @version      0.2
 // @description  remove paywall on forbes.com
-// @author       You
+// @author       lehuymanhtan
 // @match        https://*.forbes.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=forbes.com
 // @grant        none
