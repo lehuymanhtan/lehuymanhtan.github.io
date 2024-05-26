@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         fobes unblock?
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/lehuymanhtan
 // @version      0.2
 // @description  remove paywall on forbes.com
 // @author       You
