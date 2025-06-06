@@ -15,7 +15,7 @@ body{
     background-repeat: no-repeat;
     color:#FFFFFF;
     text-align: center;
-    background-size: 100%;
+    background-size: cover;
     margin-bottom:25px;
     font-size: 150%;
 }
@@ -26,4 +26,8 @@ body{
 }
 img{
 		width:95%;
+}
+
+.preview:focus {
+    border-color: #0000ff;
 }
