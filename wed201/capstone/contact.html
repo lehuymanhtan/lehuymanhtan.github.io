@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Website - Contact us</title>
+    <script src="https://kit.fontawesome.com/15bb400a32.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Example Website Logo" class="logo">
+            </a>
+            <button id="btn-menu-toggle" onclick="show_hide_nav()"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="section">
+            <h2>Contact us</h2>
+            <div class="item-wrapper">
+                <form action="" method="get">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required autocomplete="name">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required autocomplete="email">
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" autocomplete="off"></textarea>
+
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Example Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
